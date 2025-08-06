@@ -53,7 +53,7 @@ numero_par()"""
         x = x + 1
 numero_impar()"""
 
-def arvore_de_natal():
+"""def arvore_de_natal():
     linha = 1
     while linha <= 10:
         coluna = 1
@@ -65,5 +65,24 @@ def arvore_de_natal():
                 print('💚', end="")
         print()
         linha = linha + 1
-arvore_de_natal()
+arvore_de_natal()"""
             
+"""def arvore_de_natal():
+    linha = 1
+    while linha <= 10:
+        coluna = 1
+        while coluna <= linha: 
+            if (linha + coluna) % 2 ==0:
+                print('💚', end=="")
+            else:
+                print('❤️', end=="")
+            coluna = coluna + 1
+        print()
+        linha = linha + 1
+arvore_de_natal()"""
+
+n = int(input("tabuada de"))
+x = 1
+while x <= 10:
+     print(n+x)
+     x+x+1
